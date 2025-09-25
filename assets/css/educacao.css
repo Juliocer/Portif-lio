@@ -1,0 +1,24 @@
+
+main .educacao{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+}
+
+main .educacao h2{
+    padding: .5rem 0;
+}
+
+main .educacao .estudo{
+    padding: .5rem 1rem;
+}
+
+main .educacao .estudo h4{
+    padding: .5rem 1rem;
+}
+
+main .educacao .estudo p{
+    padding: .2rem 1rem;
+}
+
+
