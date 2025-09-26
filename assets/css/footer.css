@@ -1,0 +1,67 @@
+footer{
+    width: 100%;
+}
+
+footer .section .section-conteudo{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 1rem;
+}
+
+footer .section .section-conteudo .info{
+    display: flex;
+    align-items: center;
+}
+
+footer .section .section-conteudo .info a{
+    color: black;
+    text-decoration: none;
+}
+
+footer .section .section-conteudo .info a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+footer .section .section-conteudo p::before{
+    content: '';
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.5rem;
+}
+
+footer .section .section-conteudo .title::before{
+    content: "";
+    background-image: url(../img/icones_header/perfil.svg);
+}
+
+footer .section .section-conteudo .perfil::before{
+    content: "";
+    background-image: url(../img/icones_header/Engrenagens.png);
+}
+
+footer .section .section-conteudo .cidade::before{
+    content: "";
+    background-image: url(../img/icones_header/endereco.svg);
+}
+
+footer .section .section-conteudo .numero::before{
+    content: "";
+    background-image: url(../img/icones_header/numero.svg);
+}
+
+footer .section .section-conteudo .email::before{
+    content: "";
+    background-image: url(../img/icones_header/email.svg);
+}
+
+
+
+
+
+
+
+

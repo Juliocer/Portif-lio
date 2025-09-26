@@ -4,12 +4,12 @@ main .content-skills{
     grid-template-columns: 1fr 1fr;
 }
 
-main .sobre,.skills{
-    padding: .5rem;
-}
-
 main h2{
     padding-bottom: 1rem;
+}
+
+main .sobre,.skills{
+    padding: .5rem;
 }
 
 main .sobre{

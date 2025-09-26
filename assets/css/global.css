@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(142, 140, 140);
+    background: linear-gradient(295deg, #2A7B9B 0%, #57C785 50%, #EDDD53 100%);
 }
 
 .container_body{
