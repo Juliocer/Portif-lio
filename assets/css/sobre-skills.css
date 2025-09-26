@@ -1,8 +1,4 @@
 
-main{
-    padding: .5rem;
-}
-
 main .content-skills{
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -1,9 +1,4 @@
 
-
-main .portifolio{
-    padding: 0 1rem;
-}
-
 main .portifolio h2{
     padding: .5rem 0; 
 }
@@ -22,5 +17,14 @@ main .portifolio .projetos p{
     padding: .2rem 1rem;
 }
 
+main .portifolio .projetos a{
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: rgb(22, 121, 104);
+}
+
+main .portifolio .projetos a:hover{
+    text-decoration: underline;
+}
 
 
