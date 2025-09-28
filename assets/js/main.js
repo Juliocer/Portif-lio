@@ -36,7 +36,7 @@ function updatePortfolio(profileData) {
         `<div class="projetos">
             <h3>${estudo.name}</h3>
             <p>${estudo.descricao}</p>
-            <a class="link" href="${estudo.url}">Link para o repositorio</a>
+            <a class="link" href="${estudo.url}" target="_blank" rel="noopener noreferrer">Link para o repositório</a>
         </div>`
     ).join('')
 }
@@ -45,8 +45,8 @@ function updateFormacao(profileData){
     const formacao = document.getElementById('formacao')
     formacao.innerHTML = profileData.formacao.map(estudo => 
         `<div class="section-conteudo">
-            <h3>Técnico em Desenvolvimento de Sistemas</h2>
-            <p>de 2023 - 2024, Formato Presencial</p>
+            <h3>${estudo.name}</h2>
+            <p>${estudo.descricao}</p>
         </div>`
     )
 }
@@ -56,6 +56,7 @@ function updateFormacao(profileData){
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updatePortfolio(profileData)
+    updateFormacao(profileData)
 })()
 
 
