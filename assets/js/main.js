@@ -23,10 +23,11 @@ function updateProfileInfo(profileData) {
 
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('skills')
-    softSkills.innerHTML = profileData.softSkills.map(skill =>
+    softSkills.innerHTML = profileData.skills.hardSkills.map(skill =>
         `<li>
-            <img src="${profileData.logo}" alt="${profileData.name}">
-        </li>`).join('')
+            <img src="${skill.logo}" alt="${skill.name}">
+        </li>`
+    ).join('')
 }
 
 (async () => {
