@@ -52,15 +52,15 @@
             "github": true
         },
         {
-            "name": "Calculadora de Partidas Ranqueadas",
-            "descricao": "Ele calcula as vitorias e pelo numeros de vitoria determina o ranque dele dentro do jogo e verifica a se e maior de idade.",
-            "url": "https://github.com/Juliocer/Calculadora-de-Partidas-Ranqueadas",
-            "github": true
-        },
-        {
             "name": "Projeto De Cadastro",
             "descricao": "Ele te dar liberdade de cadastrar excluir editar usuarios que vc cadastro.",
             "url": "https://github.com/Juliocer/ProjetoDeCadastro",
+            "github": true
+        },
+        {
+            "name": "Calculadora de Partidas Ranqueadas",
+            "descricao": "Ele calcula as vitorias e pelo numeros de vitoria determina o ranque dele dentro do jogo e verifica a se e maior de idade.",
+            "url": "https://github.com/Juliocer/Calculadora-de-Partidas-Ranqueadas",
             "github": true
         },
         {
@@ -72,16 +72,16 @@
     ],
     "formacao": [
         {
+            "name": "Plataforma DIO.",
+            "descricao": "Plano Global Vitalício - Acesso A cursos e desafios práticos em desenvolvimento de software, com foco na atualização contínua de habilidades técnicas."
+        },
+        {
             "name": "Técnico em Desenvolvimento de Sistemas",
             "descricao": "de 2023 - 2024, Formato Presencial"
         },
         {
             "name": "Curso de Informática",
             "descricao": "de 2017 - 2018, Formato Presencial"
-        },
-        {
-            "name": "Plataforma DIO.",
-            "descricao": "Plano Global Vitalício - Acesso A cursos e desafios práticos em desenvolvimento de software, com foco na atualização contínua de habilidades técnicas."
         }
     ],
     "professionalExperience": [
