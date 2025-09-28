@@ -41,6 +41,16 @@ function updatePortfolio(profileData) {
     ).join('')
 }
 
+function updateFormacao(profileData){
+    const formacao = document.getElementById('formacao')
+    formacao.innerHTML = profileData.formacao.map(estudo => 
+        `<div class="section-conteudo">
+            <h3>Técnico em Desenvolvimento de Sistemas</h2>
+            <p>de 2023 - 2024, Formato Presencial</p>
+        </div>`
+    )
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
