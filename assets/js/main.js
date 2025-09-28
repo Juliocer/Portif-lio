@@ -48,7 +48,7 @@ function updateFormacao(profileData){
             <h3>${estudo.name}</h2>
             <p>${estudo.descricao}</p>
         </div>`
-    )
+    ).join('')
 }
 
 function updateExperienciaProfissional(profileData){
