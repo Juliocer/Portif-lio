@@ -19,20 +19,20 @@
 <body>
     <div class="container_body">
         <header>
-            <img src="./assets/img/julio.jpg" alt="Foto de Júlio César">
+            <img class="photo" id="profile.photo" src="./assets/img/julio.jpg" alt="Foto de Júlio César">
             <div class="information">
-                <h1 class="title">Olá, eu sou Júlio César</h1>
-                <p class="perfil info">Junior</p>
-                <p class="cidade info">Bahia, Salvador - BR</p>
+                <h1 class="title">
+                    Olá, eu sou <span id="profile.name">Carregando...</span>
+                </h1>
+                
+                <p class="perfil info" id="profile.job">Carregando...</p>
+                <p class="cidade info" id="profile.location">Carregando...</p>
                 <p class="numero info">
-                    <a href="https://wa.me/5571986277091" target="_blank" rel="noopener noreferrer">
-                        (71) 9 8627-7091
-                    </a>
+                    <a href="https://wa.me/5571986277091" target="_blank" rel="noopener noreferrer" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email info">
                     <!-- mailto:Contatodejuliocesar@gmail.com -->
-                    <a target="_blank"
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=Contatodejuliocesar@gmail.com">Contatodejuliocesar@gmail.com</a>
+                    <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=Contatodejuliocesar@gmail.com" id="profile.email">Carregando@mail.com</a>
                 </p>
             </div>
         </header>
@@ -171,7 +171,7 @@
         </footer>
     </div>
 
-    
+
     <script src="/assets/js/api.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
