@@ -46,13 +46,27 @@
     ],
     "portfolio": [
         {
-            "name": "Técnico em Analise e Desenvolvimento de Sistemas pelo Senai Dendezeiro",
-            "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+            "name": "Buscar Perfil no GitHub",
+            "descricao": "Você coloca o nome do usuario do GitHub e ele faz uma busca para você. ",
+            "url": "https://github.com/Juliocer/Buscar-Perfil-no-GitHub",
             "github": true
         },
         {
-            "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-            "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+            "name": "Calculadora de Partidas Ranqueadas",
+            "descricao": "Ele calcula as vitorias e pelo numeros de vitoria determina o ranque dele dentro do jogo e verifica a se e maior de idade.",
+            "url": "https://github.com/Juliocer/Calculadora-de-Partidas-Ranqueadas",
+            "github": true
+        },
+        {
+            "name": "Projeto De Cadastro",
+            "descricao": "Ele te dar liberdade de cadastrar excluir editar usuarios que vc cadastro.",
+            "url": "https://github.com/Juliocer/ProjetoDeCadastro",
+            "github": true
+        },
+        {
+            "name": "Desafio ataque no jogo",
+            "descricao": "Ele pedar soma todas as vitorias e com elas infroma seu ranque dentro do jogo.",
+            "url": "https://github.com/Juliocer/Desafio-ataque-no-jogo",
             "github": true
         }
     ],
