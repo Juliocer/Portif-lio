@@ -29,7 +29,7 @@ main .skills{
 
 main .skills ul{
     display: flex;
-    gap: .5rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
@@ -40,6 +40,13 @@ main .skills ul li{
 main .skills img{
     width: 60px;
     height: 60px;
+}
+
+main .skills img:hover{
+    background-color: #ffffff4d;
+    padding: .5rem;
+    border-radius: .2rem;
+    transition: 1s;
 }
 
 

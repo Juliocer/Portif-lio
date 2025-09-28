@@ -1,39 +1,33 @@
-
-nav{
+nav {
     width: 100%;
-    padding: 1rem 0;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     padding: .5rem 0;
-    background-color: rgb(110, 108, 108);
+    background-color: #ffffff4d;
     border-radius: .5rem;
     list-style: none;
     flex-wrap: wrap;
 }
 
-nav ul li{
+nav ul li {
     margin: .5rem;
 }
 
-nav ul a{
+nav ul a {
     position: relative;
     color: black;
     text-decoration: none;
     font-size: 1rem;
-    background-color: rgb(150, 148, 148);
+    background: linear-gradient(270deg, #57C78580 0%, #EDDD5380 100%);
     border-radius: 1rem;
     padding: .5rem 1rem;
 }
 
-nav ul a:hover{
-    background-color: rgb(214, 209, 209);
+nav ul a:hover {
+    background: linear-gradient(270deg, #57C785 0%, #EDDD53 100%);
 }
-
-
-
-

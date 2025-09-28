@@ -1,5 +1,4 @@
-
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -7,64 +6,74 @@ header{
     width: 100%;
 }
 
-header img{
-    width: 200px; 
-    height: 200px; 
-    border-radius: 50%;
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5rem;
 }
 
-header .information{
-    margin: 1rem;
+
+header .information {
+    padding: 1rem;
 }
 
-header .information .title{
+header .information .info{
+    display: flex;
+    align-items: center;
+}
+
+header .information .title {
     text-align: center;
     font-size: 2rem;
-    margin: 1rem 0;
+    padding: 0 1rem .5rem 1rem;
 }
 
-header .info{
-    margin: 1rem 0;
+header p{
     font-size: 1rem;
     font-weight: 700;
+    padding: .5rem 1rem;
 }
 
-header .info a{
+header .info a {
     color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .1rem 1rem;
     text-decoration: none;
+    letter-spacing: .1rem;
 }
 
-header .info a:hover{
-    color: black;
-    text-decoration: underline;
+header .info a:hover {
+    background-color: #ffffff4d;
+    border-radius: 1rem;
 }
 
-header p::before{
+header p::before {
     content: '';
     display: inline-block;
     width: 1.3rem;
     height: 1.3rem;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 0.5rem;
+    margin-right: .5rem;
 }
 
-header .perfil::before{
+header .perfil::before {
     content: "";
     background-image: url(../img/icones_header/Engrenagens.png);
 }
 
-header .cidade::before{
+header .cidade::before {
     content: "";
     background-image: url(../img/icones_header/endereco.svg);
 }
 
-header .numero::before{
+header .numero::before {
     content: "";
     background-image: url(../img/icones_header/numero.svg);
 }
 
-header .email::before{
+header .email::before {
     content: "";
     background-image: url(../img/icones_header/email.svg);
 }
