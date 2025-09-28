@@ -30,6 +30,17 @@ function updateSoftSkills(profileData) {
     ).join('')
 }
 
+function updatePortfolio(profileData) {
+    const projeto = document.getElementById('projetos')
+    projeto.innerHTML = profileData.portfolio.map(estudo =>
+        `<div class="projetos">
+            <h3>${estudo.name}</h3>
+            <p>${estudo.descricao}</p>
+            <a class="link" href="${estudo.url}">Link para o repositorio</a>
+        </div>`
+    ).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
