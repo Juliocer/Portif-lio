@@ -45,6 +45,7 @@ function updatePortfolio(profileData) {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
+    updatePortfolio(profileData)
 })()
 
 
