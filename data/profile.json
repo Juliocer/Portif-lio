@@ -70,6 +70,20 @@
             "github": true
         }
     ],
+    "formacao": [
+        {
+            "name": "Técnico em Desenvolvimento de Sistemas",
+            "descricao": "de 2023 - 2024, Formato Presencial"
+        },
+        {
+            "name": "Curso de Informática",
+            "descricao": "de 2017 - 2018, Formato Presencial"
+        },
+        {
+            "name": "Plataforma DIO.",
+            "descricao": "Plano Global Vitalício - Acesso A cursos e desafios práticos em desenvolvimento de software, com foco na atualização contínua de habilidades técnicas."
+        }
+    ],
     "professionalExperience": [
         {
             "name": "Arquiteto de software / S3 BANK",
