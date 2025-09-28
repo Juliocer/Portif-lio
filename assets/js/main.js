@@ -51,12 +51,42 @@ function updateFormacao(profileData){
     )
 }
 
+function updateExperienciaProfissional(profileData){
+    const experiencia = document.getElementById('experiencia.profissional')
+    experiencia.innerHTML = profileData.professionalExperience.map(experiencia => 
+        `<div class="section-conteudo">
+            <h3>${experiencia.name}</h2>
+            <h4>${experiencia.period}</h4>
+            <p>${experiencia.description}</p>
+        </div>`
+    )
+}
+
+function updateFooter(profileData){
+    const footer_name = document.getElementById('footer.name')
+    footer_name.innerText = profileData.name
+
+    const footer_perfil = document.getElementById('footer.perfil')
+    footer_perfil.innerText = profileData.job
+
+    const footer_endereco = document.getElementById('footer.endereco')
+    footer_endereco.innerText = profileData.location
+
+    const footer_phone = document.getElementById('footer.phone')
+    footer_phone.innerText = profileData.phone
+
+    const footer_email = document.getElementById('footer.email')
+    footer_email.innerText = profileData.email
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updatePortfolio(profileData)
     updateFormacao(profileData)
+    updateExperienciaProfissional(profileData)
+    updateFooter(profileData)
 })()
 
 
